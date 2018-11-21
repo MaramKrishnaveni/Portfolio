@@ -1,0 +1,85 @@
+.title-logo {
+	max-width: 50%;
+	max-height: 50%;
+    margin: 15px;
+}
+.title-super {
+	margin-top: 40px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h4{
+  text-transform: lowercase;
+}
+hr {
+    display: block;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff;
+}
+#title-ref{
+	text-transform: lowercase;
+}
+.spart{
+	margin-right: 0px;
+}
+.h-part,.spart,.fref{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  margin-bottom: 0px;
+}
+footer ul {
+    text-align: center;
+    padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline-flex;
+  margin: 20px;
+}
+ .navbar {
+      margin-bottom: 0;
+            border-radius: 0;
+            background-color:rgba(35 35 57);
+         }   
+            
+    
+    /* Add a gray background color and some padding to the footer */
+footer {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+@media screen and (max-width:451px){
+  .carousel-caption .h-ref1{
+    padding-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-family: inherit;
+  }
+  .carousel-caption .p-ref2{
+    padding-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    font-family: inherit;
+  }
+  footer ul li {
+    margin: 15px;
+    background-color: #f1f1f1;
+}
+@media screen and (min-width:452px){
+  .carousel-caption .h-ref1{
+    padding-top: 0px;
+    margin-bottom: 0px;
+    font-size: 26px;
+    font-family: inherit;
+  }
+  footer ul li {
+  list-style: none;
+  display: inline-flex;
+  margin: 20px;
+}
